@@ -22,7 +22,42 @@
         document.documentElement.classList.remove('no-js');
         document.documentElement.classList.add('js');
     </script>
-
+<!-- Schema Markup for Local Business -->
+<script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Indio Surf School",
+    "image": "https://www.indiosurfschool.com/images/logo.png",
+    "url": "https://www.indiosurfschool.com",
+    "telephone": "+506 8657 0050",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C. Intercultura",
+        "addressLocality": "Sámara",
+        "addressRegion": "Guanacaste",
+        "addressCountry": "CR"
+    },
+    "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+        ],
+        "opens": "06:30",
+        "closes": "17:00"
+    },
+    "sameAs": [
+        "https://www.facebook.com/profile.php?id=61557864358677",
+        "https://www.instagram.com/indiosurfschool"
+    ]
+    }
+    </script>
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="css/vendor.css">
