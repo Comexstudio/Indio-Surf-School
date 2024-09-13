@@ -68,6 +68,7 @@
 <!-- CSS -->
 <link href="css/vendor.css" rel="stylesheet" />
 <link href="css/styles.css" rel="stylesheet" />
+<link href="css/gallery.css" rel="stylesheet" />
 	
 <!-- favicons -->
 <link href="apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
@@ -87,10 +88,10 @@
 <div></div>
 </div>
 </div>
-<!-- page wrap ================================================== -->
+<!-- page wrap -->
 
-<div class="s-pagewrap ss-home" id="page"><!-- # site header 
-        ================================================== -->
+<div class="s-pagewrap ss-home" id="page">
+<!-- # site header -->
 <header class="s-header" id="masthead">
 <div class="s-header__branding">
 <p class="site-title"><a href="index.html" rel="home">Indio Surf</a></p>
@@ -109,10 +110,11 @@
 <!-- end s-header__nav --></nav>
 <!-- end s-header__nav-wrap --></div>
 <!-- end s-header__navigation --><a class="s-header__menu-toggle" href="#0"><span>Menu</span></a> <a class="s-header__search-trigger" href="#"> </a></header>
-<!-- end s-header --><!-- # site-content
-        ================================================== -->
+<!-- end s-header -->
+<!-- site-content -->
 
-<section class="s-content" id="content"><!-- hero -->
+<section class="s-content" id="content">
+<!-- hero -->
 <div class="hero">
 <div class="hero__slider swiper-container">
 <div class="swiper-wrapper">
@@ -157,9 +159,9 @@
 						<div class="entry__media">
 							<figure class="featured-image">
 								<img src="images/thumbs/reservations/reservations-1200.jpg" 
-								  srcset="images/thumbs/reservations/reservations-2400.jpg 2400w, 
-										  images/thumbs/reservations/reservations-1200.jpg 1200w, 
-										  images/thumbs/reservations/reservations-600.jpg 600w" sizes="(max-width: 2400px) 100vw, 2400px" alt="surf">
+									srcset="images/thumbs/reservations/reservations-2400.jpg 2400w, 
+											images/thumbs/reservations/reservations-1200.jpg 1200w, 
+											images/thumbs/reservations/reservations-600.jpg 600w" sizes="(max-width: 2400px) 100vw, 2400px" alt="surf">
 							</figure>
 						</div>
 
@@ -243,17 +245,48 @@
 			</div> <!-- end entry-wrap -->
 	</section> <!-- end s-content -->
 
-	<!-- # site-footer
-	================================================== -->
+	<!-- site-footer -->
 
 
+<!-- Gallery -->
 
+	<h4 class="gallery-title">Surf Gallery</h4>
+
+	<div class="gallery" id="gallery">
+		<img src="/images/gallery/surf school 1.jpeg" alt="Image 1" class="gallery-item" loading="lazy">
+		<img src="/images/gallery/surf school 2.jpeg" alt="Image 2" class="gallery-item" loading="lazy">
+		<img src="/images/gallery/surf school 3.jpeg" alt="Image 2" class="gallery-item" loading="lazy">
+		<img src="/images/gallery/surf school 4.jpeg" alt="Image 2" class="gallery-item" loading="lazy">
+		<img src="/images/gallery/surf school 5.jpeg" alt="Image 2" class="gallery-item" loading="lazy">
+		<img src="/images/gallery/surf school 6.jpeg" alt="Image 2" class="gallery-item" loading="lazy">
+		<img src="/images/gallery/surf school 7.jpeg" alt="Image 2" class="gallery-item" loading="lazy">
+		<img src="/images/gallery/surf school 8.jpeg" alt="Image 2" class="gallery-item" loading="lazy">
+		<img src="/images/gallery/surf school 9.jpeg" alt="Image 2" class="gallery-item" loading="lazy">
+		<img src="/images/gallery/surf school 10.jpeg" alt="Image 2" class="gallery-item" loading="lazy">
+		<img src="/images/gallery/surf school 11.jpeg" alt="Image 2" class="gallery-item" loading="lazy">
+		<img src="/images/gallery/surf school 12.jpeg" alt="Image 2" class="gallery-item" loading="lazy">
+	</div>
+
+  <!-- Loader e indicador de carga -->
+  <div id="gallery-loader"></div>
+
+  <!-- Botón para cargar más imágenes -->
+  <div class="load-more">
+    <button id="load-more-btn">Load More</button>
+  </div>
+
+  <!-- Modal para imágenes -->
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-image">
+  </div>
+
+<!-- End Gallery -->
 
 <div class="bricks" id="bricks">
 <div class="masonry">
 <div class="bricks-wrapper" data-animate-block="">
 <div class="grid-sizer"></div>
-
 
 <article class="brick entry" data-animate-el="">
 <div class="entry__thumb"><a class="thumb-link" href="about.html"><img alt="Instructores" src="images/thumbs/masonry/instructores-600.jpg" srcset="images/thumbs/masonry/instructores-600.jpg 1x, images/thumbs/masonry/instructores-1200.jpg 2x" /> </a></div>
@@ -433,7 +466,9 @@
 
 <div class="ss-go-top"><a class="smoothscroll" href="#top" title="Back to Top"><svg fill="none" height="24" viewbox="0 0 24 24" width="24"> <path d="M17.25 10.25L12 4.75L6.75 10.25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path> <path d="M12 19.25V5.75" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path> </svg> </a></div>
 <!-- end ss-go-top --></footer>
-<!-- end s-footer --><!-- Java Script
-    ================================================== --><script src="js/plugins.js"></script><script src="js/main.js"></script></div>
+<!-- end s-footer -->
+<!-- Java Script -->
+<script src="js/plugins.js"></script><script src="js/main.js"></script></div>
+<script src="/js/gallery.js"></script>
 </body>
 </html>
