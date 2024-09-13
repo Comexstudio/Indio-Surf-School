@@ -120,3 +120,24 @@ text-align: center;
     color: #bbb;
   }
   
+
+/* Mantener las 4 columnas en pantallas medianas (tablets o dispositivos más grandes) */
+@media (max-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr); /* Cambia a 3 columnas en tablets */
+  }
+}
+
+/* Ajuste para pantallas móviles o muy pequeñas */
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr); /* Cambia a 2 columnas en pantallas más pequeñas */
+  }
+}
+
+/* Para pantallas muy pequeñas (como móviles en modo retrato) */
+@media (max-width: 480px) {
+  .gallery {
+    grid-template-columns: 1fr; /* Solo 1 columna en móviles pequeños */
+  }
+}
