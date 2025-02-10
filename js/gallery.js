@@ -9,19 +9,19 @@ const imagesPerPage = 6;
 
 // Array de imágenes adicionales
 let newImages = [
-  "/images/gallery/surf school 14.jpeg",
-  "/images/gallery/surf school 15.jpeg",
-  "/images/gallery/surf school 16.jpeg",
-  "/images/gallery/surf school 17.jpeg",
-  "/images/gallery/surf school 18.jpeg",
-  "/images/gallery/surf school 19.jpeg",
-  "/images/gallery/surf school 20.jpeg",
-  "/images/gallery/surf school 21.jpeg",
   "/images/gallery/surf school 22.jpeg",
   "/images/gallery/surf school 23.jpeg",
   "/images/gallery/surf school 24.jpeg",
+  "/images/gallery/surf school 25.jpeg",
   "/images/gallery/surf school 26.jpeg",
   "/images/gallery/surf school 27.jpeg",
+  "/images/gallery/surf school 28.jpeg",
+  "/images/gallery/surf school 29.jpeg",
+  "/images/gallery/surf school 30.jpeg",
+  "/images/gallery/surf school 31.jpeg",
+  "/images/gallery/surf school 32.jpeg",
+  "/images/gallery/surf school 33.jpeg",
+  "/images/gallery/surf school 34.jpeg",
 ];
 
 // Función para habilitar el modal
