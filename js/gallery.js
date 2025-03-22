@@ -20,7 +20,6 @@ let newImages = [
   "/images/gallery/surf school 30.jpeg",
   "/images/gallery/surf school 31.jpeg",
   "/images/gallery/surf school 32.jpeg",
-  "/images/gallery/surf school 33.jpeg",
   "/images/gallery/surf school 34.jpeg",
 ];
 

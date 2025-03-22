@@ -3162,7 +3162,8 @@ img.u-pull-left {
 
 @media screen and (max-width: 700px) {
     .bricks {
-        --brick-padding : 4rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     .bricks .masonry {
@@ -3178,6 +3179,7 @@ img.u-pull-left {
 @media screen and (max-width: 420px) {
     .bricks .masonry {
         width : 100%;
+        margin-bottom: 0px;
     }
 
     .bricks-wrapper .brick {
@@ -4725,7 +4727,7 @@ body.search-is-visible .s-header__search-inner {
 
 @media screen and (max-width: 1200px) {
     .s-footer {
-        padding-bottom : var(--vspace-2);
+        padding-top: 0px;
     }
 
     .s-footer>.row {
